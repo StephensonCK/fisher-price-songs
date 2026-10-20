@@ -68,6 +68,11 @@
           "title": "Dance Party",
           "stage": 2,
           "lyrics": "It’s a dance party, show us your moves, livin it up, in the living room!\nJump like a bunny up and down! Just spin AROUND!\nStomp your feet like a dinosaur give a big, loud dino roar"
+        },
+        {
+          "title": "Pool Party",
+          "stage": 2,
+          "lyrics": "It's a pool party a pool party on a sunny day\nIt's a pool party a pool party lets splash and play\nI'll hold my nose\nIt's a pool party a pool party here we go\n1 2 3 splash!"
         }
       ]
     }
