@@ -75,6 +75,17 @@
           "lyrics": "It's a pool party a pool party on a sunny day\nIt's a pool party a pool party lets splash and play\nIt's a pool party a pool party I'll hold my nose\nIt's a pool party a pool party here we go\n1 2 3 splash!"
         }
       ]
+    },
+    {
+      "id": "big-yellow-school-bus",
+      "title": "Big Yellow School Bus",
+      "songs": [
+        {
+          "title": "Wheels on The Bus",
+          "stage": null,
+          "lyrics": "The wheels on the bus go round and round,\nRound and round, round and round!\nThe wheels on the bus go round and round,\nAll through the town!\nThe wipers on the bus go swish, swish, swish,\nSwish, swish, swish; swish, swish, swish!\nThe wipers on the bus go swish, swish, swish,\nAll through the town!\nThe horn on the bus goes beep, beep, beep,\n Beep, beep, beep; beep, beep, beep!\n The horn on the bus goes beep, beep, beep,\n All through the town!"
+        }
+      ]
     }
   ]
 }
