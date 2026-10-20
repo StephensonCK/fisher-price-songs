@@ -21,6 +21,33 @@
           "lyrics": "A song with no stage"
         }
       ]
+    },
+    {
+      "id": "light-up-learning-camper",
+      "title": "Light-Up Learning Camper",
+      "image": "images/camper.jpg",
+      "songs": [
+        {
+          "title": "ABC Adventure",
+          "stage": 2,
+          "lyrics": "On an adventure, driving cross-country,\nPulling our camper, what letters might we see?\nA B C D E F G,\nH I J K L M N O P,\nQ R S T U V,\nW X Y Z!"
+        },
+        {
+          "title": "Firefly Counting",
+          "stage": 1,
+          "lyrics": "Count the stars up in the sky\nCount the stars up in the sky\nAnd count the blinking fireflies\nOne, two, three, four, five, six, seven, eight, nine, ten!"
+        },
+        {
+          "title": "Weather",
+          "stage": 2,
+          "lyrics": "Camping! In the great outdoors,\nCamping! In the great outdoors,\nRainy days, the flowers grow!\nChilly days, we wear a coat!\nWindy, days we,\nGo wherever the wind may blow!"
+        },
+        {
+          "title": "Seasons",
+          "stage": 2,
+          "lyrics": "Spring, Summer...\nFall, Winter...\nFour seasons, campers know!\nFlowers in the Spring\nand hot Summer days,\nCrunchy Fall leaves\nand Winter snow!"
+        }
+      ]
     }
   ]
 }
