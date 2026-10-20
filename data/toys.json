@@ -48,6 +48,28 @@
           "lyrics": "Check it out\ncan you sort it out?\nPlastic, cans, and paper too!\nBefore you throw out the garbage before you throw it away,\ncheck it out\ncan you sort it out?\nPlastic, cans, and paper too!"
         }
       ]
+    },
+    {
+      "id": "friends-together-play-house",
+      "title": "Friends Together Play House",
+      "image": "images/house.jpg",
+      "songs": [
+        {
+          "title": "Colorful Foods",
+          "stage": 1,
+          "lyrics": "Red Strawberries! Yellow bananas!\n\"Purple grapes and green peas!\nOrange carrots from the garden,\nSo many colorful foods to eat!"
+        },
+        {
+          "title": "Kitchen Song",
+          "stage": 2,
+          "lyrics": "Party in the kitchen, do a little dance!\nBANG BANG BANG on the pots and pans!\nMaking something new with friends, yum yum!\nLet's STIR UP THE FUN!\nEggs and bananas,\nButter and jelly!\nKetchup and flour,\nMilk and spaghetti!\"\nMix it all up with a big BIG spoon!\nThen serve it to friends and family too!\nOooh, that's uhh… pretty yucky! Hehe!"
+        },
+        {
+          "title": "Dance Party",
+          "stage": 2,
+          "lyrics": "It’s a dance party, show us your moves, livin it up, in the living room!\nJump like a bunny up and down! Just spin AROUND!\nStomp your feet like a dinosaur give a big, loud dino roar"
+        }
+      ]
     }
   ]
 }
