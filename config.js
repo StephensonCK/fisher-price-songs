@@ -2,7 +2,7 @@
 // Leave owner/repo empty to auto-detect when hosted at https://<owner>.github.io/<repo>/.
 // Set them explicitly when previewing locally.
 window.SITE_CONFIG = {
-  owner: "",
+  owner: "StephensonCK",
   repo: "fisher-price-songs",
   branch: "main",
 };
