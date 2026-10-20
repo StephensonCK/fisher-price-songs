@@ -26,6 +26,28 @@
           "lyrics": "Spring, Summer...\nFall, Winter...\nFour seasons, campers know!\nFlowers in the Spring\nand hot Summer days,\nCrunchy Fall leaves\nand Winter snow!"
         }
       ]
+    },
+    {
+      "id": "recycling-truck",
+      "title": "Recycling Truck",
+      "image": "images/recyclingtruck.jpg",
+      "songs": [
+        {
+          "title": "Reduce, Reuse, Recycle",
+          "stage": null,
+          "lyrics": "Reduce, reuse, recycle\nkeep our planet clean.\nWaste not, want not, do our share\nshow the world just how much we care"
+        },
+        {
+          "title": "Recycle Symbol",
+          "stage": null,
+          "lyrics": "Three arrows and a triangle\nthat means it can be recycled.\nThree arrows and a triangle\nit can be recycled!"
+        },
+        {
+          "title": "Sort It Out",
+          "stage": null,
+          "lyrics": "Check it out\ncan you sort it out?\nPlastic, cans, and paper too!\nBefore you throw out the garbage before you throw it away,\ncheck it out\ncan you sort it out?\nPlastic, cans, and paper too!"
+        }
+      ]
     }
   ]
 }
