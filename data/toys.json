@@ -8,12 +8,12 @@
         {
           "title": "ABC Adventure",
           "stage": 1,
-          "lyrics": "On an adventure, driving cross-country,\nPulling our camper, what letters might we see?\nA B C D E F G,\nH I J K L M N O P,\nQ R S T U V,\nW X Y Z!"
+          "lyrics": "Music up! Windows down! \nOn an adventure, driving cross-country,\nPulling our camper, what letters might we see?\nA B C D E F G,\nH I J K L M N O P,\nQ R S T U V,\nW X Y Z!"
         },
         {
           "title": "Firefly Counting",
           "stage": 1,
-          "lyrics": "Count the stars up in the sky\nAnd count the blinking fireflies\nOne, two, three, four, five, six, seven, eight, nine, ten!"
+          "lyrics": "Fireflies and stars at night. \nUnderneath the Northern Lights. \nCount the stars up in the sky\nAnd count the blinking fireflies\nOne, two, three, four, five, six, seven, eight, nine, ten!"
         },
         {
           "title": "Weather",
@@ -23,7 +23,7 @@
         {
           "title": "Seasons",
           "stage": 2,
-          "lyrics": "Spring, Summer...\nFall, Winter...\nFour seasons, campers know!\nFlowers in the Spring\nand hot Summer days,\nCrunchy Fall leaves\nand Winter snow!"
+          "lyrics": "Spring, Summer...\nFall, Winter...\nFour seasons, campers know!\nFlowers in the Spring and hot Summer days,\nCrunchy Fall leaves and Winter snow!"
         }
       ]
     },
