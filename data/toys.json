@@ -57,12 +57,12 @@
         {
           "title": "Colorful Foods",
           "stage": 1,
-          "lyrics": "Red Strawberries! Yellow bananas!\n\"Purple grapes and green peas!\nOrange carrots from the garden,\nSo many colorful foods to eat!"
+          "lyrics": "Red Strawberries! Yellow bananas!\nPurple grapes and green peas!\nOrange carrots from the garden,\nSo many colorful foods to eat!"
         },
         {
           "title": "Kitchen Song",
           "stage": 2,
-          "lyrics": "Party in the kitchen, do a little dance!\nBANG BANG BANG on the pots and pans!\nMaking something new with friends, yum yum!\nLet's STIR UP THE FUN!\nEggs and bananas,\nButter and jelly!\nKetchup and flour,\nMilk and spaghetti!\"\nMix it all up with a big BIG spoon!\nThen serve it to friends and family too!\nOooh, that's uhh… pretty yucky! Hehe!"
+          "lyrics": "Party in the kitchen, do a little dance!\nBANG BANG BANG on the pots and pans!\nMaking something new with friends, yum yum!\nLet's STIR UP THE FUN!\nEggs and bananas,\nButter and jelly!\nKetchup and flour,\nMilk and spaghetti!\nMix it all up with a big BIG spoon!\nThen serve it to friends and family too!\nOooh, that's uhh… pretty yucky! Hehe!"
         },
         {
           "title": "Dance Party",
@@ -72,7 +72,7 @@
         {
           "title": "Pool Party",
           "stage": 2,
-          "lyrics": "It's a pool party a pool party on a sunny day\nIt's a pool party a pool party lets splash and play\nI'll hold my nose\nIt's a pool party a pool party here we go\n1 2 3 splash!"
+          "lyrics": "It's a pool party a pool party on a sunny day\nIt's a pool party a pool party lets splash and play\nIt's a pool party a pool party I'll hold my nose\nIt's a pool party a pool party here we go\n1 2 3 splash!"
         }
       ]
     }
