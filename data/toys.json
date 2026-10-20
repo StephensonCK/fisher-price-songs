@@ -1,0 +1,26 @@
+{
+  "toys": [
+    {
+      "id": "example-toy",
+      "title": "Example Toy",
+      "image": "images/example-toy.jpg",
+      "songs": [
+        {
+          "title": "Example Song One",
+          "stage": 1,
+          "lyrics": "Placeholder line one\nPlaceholder line two"
+        },
+        {
+          "title": "Example Song Two",
+          "stage": 2,
+          "lyrics": "Another placeholder line\nAnd one more"
+        },
+        {
+          "title": "Example Song Three",
+          "stage": null,
+          "lyrics": "A song with no stage"
+        }
+      ]
+    }
+  ]
+}

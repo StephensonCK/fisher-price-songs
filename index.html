@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Little People Song List</title>
+  <meta name="description" content="An unofficial catalog of the songs on Fisher-Price Little People toys.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="#/">Little People Song List</a>
+    <div id="auth" class="auth"></div>
+  </header>
+  <main id="app" aria-live="polite">Loading…</main>
+  <footer class="site-footer">
+    <p class="disclaimer">
+      Unofficial fan-made list. Fisher-Price and Little People are trademarks of Mattel, Inc.
+      This site is not affiliated with or endorsed by Mattel or Fisher-Price.
+    </p>
+    <p class="copyright">&copy; <span id="year">2026</span> Little People Song List</p>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="config.js"></script>
+  <script src="admin.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
