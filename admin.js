@@ -111,7 +111,7 @@ const Admin = (() => {
     if (!box) return;
     box.replaceChildren();
     if (!user) {
-      box.append(el("a", { class: "button", href: "#/signin", text: "Sign in" }));
+      box.append(el("a", { class: "quiet-link", href: "#/signin", text: "Sign in" }));
       return;
     }
     box.append(el("span", { class: "who", text: `@${user.login} · ${roleLabel[role]}` }));

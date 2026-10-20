@@ -206,7 +206,15 @@ function relatedToys(current) {
   if (!others.length) return null;
   return el("nav", { class: "related", "aria-label": "More toys" },
     el("h2", { text: "More Little People toys" }),
-    el("ul", {}, others.map((t) => el("li", {}, el("a", { href: `${ROOT}toys/${t.id}/`, text: t.title })))));
+    el("ul", { class: "grid" }, others.map((t) => {
+      const n = t.songs.length;
+      return el("li", {},
+        el("a", { class: "card", href: `${ROOT}toys/${t.id}/` },
+          toyImage(t),
+          el("div", { class: "card-body" },
+            el("h3", { class: "card-title", text: t.title }),
+            el("p", { class: "card-meta", text: `${n} song${n === 1 ? "" : "s"}` }))));
+    })));
 }
 
 function route() {

@@ -63,7 +63,7 @@ function toyPrerender(toy) {
     g.songs.map((s) => `<details><summary>${esc(s.title)}</summary><p class="lyrics">${esc(s.lyrics)}</p></details>`).join("")).join("");
   const others = toys.filter((t) => t.id !== toy.id);
   const related = others.length
-    ? `<nav class="related" aria-label="More toys"><h2>More Little People toys</h2><ul>${others.map((t) => `<li><a href="../${t.id}/">${esc(t.title)}</a></li>`).join("")}</ul></nav>`
+    ? `<nav class="related" aria-label="More toys"><h2>More Little People toys</h2><ul class="grid">${others.map((t) => `<li><a class="card" href="../${t.id}/">${imgTag(t, "../../")}<div class="card-body"><h3 class="card-title">${esc(t.title)}</h3><p class="card-meta">${plural(t.songs.length, "song")}</p></div></a></li>`).join("")}</ul></nav>`
     : "";
   return `<a class="back" href="../../">← All toys</a>
 <h1>${esc(toy.title)}</h1>

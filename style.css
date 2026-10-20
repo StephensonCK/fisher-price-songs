@@ -324,4 +324,7 @@ summary { padding: 16px 20px; font-weight: 900; }
 .intro { margin: 0 0 20px; color: var(--muted); }
 .related { margin-top: 40px; }
 .related h2 { font-size: 1.2rem; }
-.related ul { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0; padding: 0; list-style: none; }
+.related ul { margin: 0; padding: 0; list-style: none; }
+.related .card-title { font-size: 1rem; }
+.quiet-link { color: var(--muted); font-size: 0.85rem; text-decoration: underline; }
+.quiet-link:hover { color: var(--accent); }
