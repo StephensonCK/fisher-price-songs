@@ -27,6 +27,12 @@ Editing uses GitHub as the backend, so permissions are GitHub's own:
 
 Setup: set `owner` and `repo` in `config.js` (auto-detected on GitHub Pages). Each person creates a fine-grained personal access token limited to this repo with Contents read/write (admins managing editors also need Administration read/write), then signs in from the site. Saving commits to `data/toys.json`; the live site updates after GitHub Pages rebuilds (about a minute).
 
+## SEO and generated files
+
+Search engines can't index `#/` routes, so each toy also gets a real page at `/toys/<id>/`. `scripts/build.mjs` generates these from `data/toys.json`, along with `sitemap.xml`, `404.html` and the SEO tags and pre-rendered toy list in `index.html`. A GitHub Action (`.github/workflows/build.yml`) runs it whenever the data changes, so saving in the editor updates them about a minute later. To run it yourself: `node scripts/build.mjs`. Don't hand-edit anything under `toys/`; edit `index.html` (outside the `<!--seo-head-->` and `<!--prerender-->` markers) or the script instead.
+
+The site address comes from `CNAME`.
+
 ## Local preview
 
 ```

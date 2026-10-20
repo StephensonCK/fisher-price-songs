@@ -291,7 +291,7 @@ summary { padding: 16px 20px; font-weight: 900; }
   .brand-badge { width: 78px; height: 60px; font-size: 1.25rem; }
   .site-title { gap: 11px; font-size: 1.1rem; }
   main { padding: 20px 18px 55px; }
-  .hero { display: none; }
+  .hero { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; margin: 0; }
   .hero-copy { padding: 30px 26px; }
   .hero-art { min-height: 150px; }
   .sun { top: 15px; width: 70px; }
@@ -320,3 +320,8 @@ summary { padding: 16px 20px; font-weight: 900; }
 }
 .site-footer .auth { margin-top: 12px; }
 .site-header { justify-content: center; }
+
+.intro { margin: 0 0 20px; color: var(--muted); }
+.related { margin-top: 40px; }
+.related h2 { font-size: 1.2rem; }
+.related ul { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0; padding: 0; list-style: none; }

@@ -1,6 +1,10 @@
 "use strict";
 
 const app = document.getElementById("app");
+// Pre-built toy pages (toys/<id>/) set these so paths and routing still work from a subfolder.
+const ROOT = document.body.dataset.root || "";
+const STATIC_TOY = document.body.dataset.toy || null;
+const HOME = ROOT || "./";
 let rawData = { toys: [] }; // unvalidated copy, what editors work on and save
 let toys = [];              // validated copy, what visitors see
 let problems = [];
@@ -93,8 +97,8 @@ function toyImage(toy, cls) {
   if (!toy.image) return null;
   return el("img", {
     class: cls,
-    src: toy.image,
-    alt: toy.title,
+    src: ROOT + toy.image,
+    alt: `${toy.title} toy`,
     loading: "lazy",
     onerror: (e) => e.target.remove(),
   });
@@ -115,7 +119,7 @@ function renderHome() {
     for (const toy of shown) {
       const n = toy.songs.length;
       grid.append(el("li", {},
-        el("a", { class: "card", href: `#/toy/${toy.id}` },
+        el("a", { class: "card", href: `${ROOT}toys/${toy.id}/` },
           toyImage(toy),
           el("div", { class: "card-body" },
             el("h2", { class: "card-title", text: toy.title }),
@@ -151,7 +155,7 @@ function renderToy(id) {
   if (!toy) {
     show(errorBox(),
       el("p", { text: "Toy not found." }),
-      el("a", { href: "#/", text: "← All toys" }));
+      el("a", { href: HOME, text: "← All toys" }));
     return;
   }
 
@@ -188,12 +192,21 @@ function renderToy(id) {
 
   show(
     errorBox(),
-    el("a", { class: "back", href: "#/", text: "← All toys" }),
+    el("a", { class: "back", href: HOME, text: "← All toys" }),
     el("h1", { text: toy.title }),
+    el("p", { class: "intro", text: `Songs from the Fisher-Price Little People ${toy.title}, grouped by stage.` }),
     Admin.canEdit() ? el("p", {}, el("a", { class: "button", href: `#/edit-toy/${toy.id}`, text: "Edit toy" })) : null,
     toyImage(toy, "toy-image"),
-    search, list, empty);
+    search, list, empty, relatedToys(toy));
   draw("");
+}
+
+function relatedToys(current) {
+  const others = toys.filter((t) => t.id !== current.id);
+  if (!others.length) return null;
+  return el("nav", { class: "related", "aria-label": "More toys" },
+    el("h2", { text: "More Little People toys" }),
+    el("ul", {}, others.map((t) => el("li", {}, el("a", { href: `${ROOT}toys/${t.id}/`, text: t.title })))));
 }
 
 function route() {
@@ -204,6 +217,7 @@ function route() {
   else if (edit) Admin.renderEditToy(decodeURIComponent(edit[1]));
   else if (hash === "#/signin") Admin.renderSignIn();
   else if (hash === "#/admin") Admin.renderAdmin();
+  else if (STATIC_TOY) renderToy(STATIC_TOY);
   else renderHome();
   window.scrollTo(0, 0);
 }
@@ -220,7 +234,7 @@ function setRaw(data) {
 
 async function init() {
   try {
-    const res = await fetch("data/toys.json");
+    const res = await fetch(ROOT + "data/toys.json");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     setRaw(await res.json());
   } catch (err) {
