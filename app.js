@@ -129,7 +129,18 @@ function renderHome() {
     "aria-label": "Search toys", oninput: (e) => draw(e.target.value),
   });
 
-  show(errorBox(), el("h1", { text: "Toys" }),
+  show(errorBox(),
+    el("section", { class: "hero" },
+      el("div", { class: "hero-copy" },
+        el("p", { class: "eyebrow", text: "A little help for big sing-alongs" }),
+        el("h1", { text: "Find that Little People song." }),
+        el("p", { class: "hero-description", text: "Browse toy songs and lyrics, all in one happy place." })),
+      el("div", { class: "hero-art", "aria-hidden": "true" },
+        el("span", { class: "sun" }), el("span", { class: "hill hill-back" }),
+        el("span", { class: "hill hill-front" }), el("span", { class: "music-note note-one", text: "♪" }),
+        el("span", { class: "music-note note-two", text: "♫" }))),
+    el("div", { class: "section-heading" },
+      el("div", {}, el("p", { class: "eyebrow", text: "Explore the collection" }), el("h2", { text: "Pick a toy to hear its songs" }))),
     Admin.canEdit() ? el("p", {}, el("a", { class: "button", href: "#/edit-toy/new", text: "Add toy" })) : null,
     search, grid, empty);
   draw("");
