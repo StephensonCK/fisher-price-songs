@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Little People Song List</title>
   <meta name="description" content="An unofficial catalog of the songs on Fisher-Price Little People toys.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="site-title" href="#/"><span class="brand-badge">little<br>people<span class="brand-dot">.</span></span><span class="site-title-text">Song List</span></a>
-    <div id="auth" class="auth"></div>
+    <a class="site-title" href="#/"><span class="brand-badge">little<br>people</span><span class="site-title-text">Song List</span></a>
   </header>
   <main id="app" aria-live="polite">Loading…</main>
   <footer class="site-footer">
@@ -19,6 +18,7 @@
       This site is not affiliated with or endorsed by Mattel or Fisher-Price.
     </p>
     <p class="copyright">&copy; <span id="year">2026</span> Little People Song List</p>
+    <div id="auth" class="auth"></div>
   </footer>
   <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
   <script src="config.js"></script>

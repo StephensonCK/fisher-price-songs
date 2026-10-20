@@ -125,7 +125,7 @@ function renderHome() {
   };
 
   const search = el("input", {
-    class: "search", type: "search", placeholder: "Search toys",
+    class: "search", type: "search", enterkeyhint: "search", placeholder: "Search toys",
     "aria-label": "Search toys", oninput: (e) => draw(e.target.value),
   });
 
@@ -182,7 +182,7 @@ function renderToy(id) {
   };
 
   const search = el("input", {
-    class: "search", type: "search", placeholder: "Search songs or lyrics",
+    class: "search", type: "search", enterkeyhint: "search", placeholder: "Search songs or lyrics",
     "aria-label": "Search songs or lyrics", oninput: (e) => draw(e.target.value),
   });
 

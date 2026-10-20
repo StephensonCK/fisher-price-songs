@@ -237,7 +237,7 @@ const Admin = (() => {
         const act = (fn) => async () => {
           try { await fn(); await draw(); } catch (err) { status.textContent = friendly(err); }
         };
-        const input = el("input", { class: "field-input", placeholder: "GitHub username", "aria-label": "GitHub username" });
+        const input = el("input", { class: "field-input", placeholder: "GitHub username", autocapitalize: "none", autocomplete: "off", spellcheck: "false", enterkeyhint: "send", "aria-label": "GitHub username" });
         const invite = async (e) => {
           e.preventDefault();
           const name = input.value.trim();
@@ -295,13 +295,13 @@ const Admin = (() => {
       return;
     }
 
-    const title = el("input", { class: "field-input", value: existing ? existing.title : "", required: true });
+    const title = el("input", { class: "field-input", value: existing ? existing.title : "", required: true, enterkeyhint: "next" });
     const id = el("input", { class: "field-input", value: existing ? existing.id : "", readonly: !isNew });
     let idTouched = !isNew;
     id.addEventListener("input", () => { idTouched = true; });
     if (isNew) title.addEventListener("input", () => { if (!idTouched) id.value = slugify(title.value); });
 
-    const image = el("input", { class: "field-input", value: (existing && existing.image) || "", placeholder: "images/toy-name.jpg" });
+    const image = el("input", { class: "field-input", value: (existing && existing.image) || "", placeholder: "images/toy-name.jpg", autocapitalize: "none", enterkeyhint: "next" });
     const status = el("p", { class: "status", role: "status" });
     const file = el("input", {
       type: "file", accept: "image/*", "aria-label": "Upload a photo",
