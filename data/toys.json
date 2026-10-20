@@ -92,6 +92,18 @@
           "lyrics": "We’re going on a field trip, field trip, FIELD TRIP!\nEveryone together!\nWe'll go somewhere new and learn a thing or two.\nIts sure to be an adventure!"
         }
       ]
+    },
+    {
+      "id": "light-up-learning-car-wash",
+      "title": "Light-Up Learning Car Wash",
+      "image": "images/carwash.jpg",
+      "songs": [
+        {
+          "title": "Party!",
+          "stage": 2,
+          "lyrics": "It's a party at the car wash!"
+        }
+      ]
     }
   ]
 }
