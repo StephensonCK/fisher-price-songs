@@ -104,6 +104,18 @@
           "lyrics": "It's a party at the car wash!"
         }
       ]
+    },
+    {
+      "id": "barbie-little-dreamhouse",
+      "title": "Barbie Little Dreamhouse",
+      "image": "images/barbie-little-dreamhouse.jpg",
+      "songs": [
+        {
+          "title": "Pool Party",
+          "stage": null,
+          "lyrics": "It’s my pool party, turn the music up\nJump, jump, jump, let’s go!\nSun glasses and sunscreen,\nWater shoes and floaties,\nThe water is great so ready to swim,\nAnd make a splash when you slide in!"
+        }
+      ]
     }
   ]
 }
