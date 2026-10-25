@@ -102,6 +102,16 @@
           "title": "Party!",
           "stage": 2,
           "lyrics": "It's a party at the car wash!"
+        },
+        {
+          "title": "Empty",
+          "stage": 1,
+          "lyrics": "The car is on empty. \n\nWe have to stop. \n\nLet's fill up to 10 fill up to the top. One. Two, three, four, five, six, seven, eight, nine ten."
+        },
+        {
+          "title": "ABC Car Wash",
+          "stage": 1,
+          "lyrics": "A, b, c, d, e, f, g. Car washes get the cars nice and clean. \nH, i, j, k, l, m, n, o fill up at the pump, then go, go, go, go. \nP, q, r, s, t, u, v, w, mechanic, fix cars. That's what they love to do. X, y, z.\n\nThe car garage is the place to be!"
         }
       ]
     },
