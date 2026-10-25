@@ -2,36 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://fisherpricestoysongs.com/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://fisherpricestoysongs.com/toys/light-up-learning-camper/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <image:image><image:loc>https://fisherpricestoysongs.com/images/camper.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://fisherpricestoysongs.com/toys/recycling-truck/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <image:image><image:loc>https://fisherpricestoysongs.com/images/recyclingtruck.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://fisherpricestoysongs.com/toys/friends-together-play-house/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <image:image><image:loc>https://fisherpricestoysongs.com/images/house.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://fisherpricestoysongs.com/toys/big-yellow-school-bus/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <image:image><image:loc>https://fisherpricestoysongs.com/images/bus-mvh4h189.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://fisherpricestoysongs.com/toys/light-up-learning-car-wash/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <image:image><image:loc>https://fisherpricestoysongs.com/images/carwash.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://fisherpricestoysongs.com/toys/barbie-little-dreamhouse/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <image:image><image:loc>https://fisherpricestoysongs.com/images/barbie-little-dreamhouse.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://fisherpricestoysongs.com/toys/caring-for-animals-farm/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <image:image><image:loc>https://fisherpricestoysongs.com/images/3211.jpg</image:loc></image:image>
   </url>
 </urlset>
