@@ -131,6 +131,11 @@
           "title": "Eggs",
           "stage": 1,
           "lyrics": "The chicken laid one, two, three, four, five eggs in her nest."
+        },
+        {
+          "title": "Day on the Farm",
+          "stage": 2,
+          "lyrics": "Let's take care of our animal friends! \n\nHey hey ho hey hey ho! \n\nAll together now. Hey hey ho hey hey ho! We're gonna take care of our friends today. \n\nListen to every word they say. We'll clean them up and watch them play. \n\nIt's another day here on the farm.\n\nAll together now. Hey hey ho hey hey ho!"
         }
       ]
     }
