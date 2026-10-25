@@ -116,6 +116,23 @@
           "lyrics": "It’s my pool party, turn the music up\nJump, jump, jump, let’s go!\nSun glasses and sunscreen,\nWater shoes and floaties,\nThe water is great so ready to swim,\nAnd make a splash when you slide in!"
         }
       ]
+    },
+    {
+      "id": "caring-for-animals-farm",
+      "title": "Caring For Animals Farm",
+      "image": "images/3211.jpg",
+      "songs": [
+        {
+          "title": "Old McDonald",
+          "stage": 1,
+          "lyrics": "Old MacDonald had a farm e-i-e-i-o and on his farm, he had a cow e-i-e-i-o. \n\nWith a moo moo here a moo moo there here a moo everywhere. \n\nThat's right, Old MacDonald had a farm e-i-e-i-o."
+        },
+        {
+          "title": "Eggs",
+          "stage": 1,
+          "lyrics": "The chicken laid one, two, three, four, five eggs in her nest."
+        }
+      ]
     }
   ]
 }
